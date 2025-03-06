@@ -1,0 +1,30 @@
+/* Aqui está as modificações feitas no corpo da pagina usando o seu nome*/
+body{
+
+    background-color: yellow;
+    color: blue;
+    font-family: Arial;
+    font-size: 20px;
+
+}
+
+/* Modificações feitas somente no paragrafo, como ele é mais especifico a ordem de precedencia é maior */
+p{
+
+    color: red;
+
+}
+
+/* Associação pelo ID DO ELEMENTO, a ordem de precendencia é maior que a do body */
+#tit_1{
+
+    font-size: 30px;
+
+}
+
+/* Associação pela CLASSE DO ELEMENTO, ordem de precendencia menor que a ID por envolver outros elementos */
+.noticias {
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
